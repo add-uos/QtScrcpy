@@ -321,6 +321,15 @@ if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
     )
 
     # linux set app icon: https://blog.csdn.net/MrNoboday/article/details/82870853
+    install(TARGETS ${QC_PROJECT_NAME} DESTINATION ${CMAKE_INSTALL_BINDIR})
+    install(FILES ${CMAKE_SOURCE_DIR}/output/x64/Debug/scrcpy-server DESTINATION /usr/bin/)
+    install(FILES ${CMAKE_SOURCE_DIR}/output/x64/Debug/adb DESTINATION /usr/bin/)
+
+    install(FILES ${CMAKE_SOURCE_DIR}/QtScrcpy.desktop
+        DESTINATION /usr/share/applications)
+    install(FILES ${CMAKE_SOURCE_DIR}/QtScrcpy/res/logo-big.svg
+        DESTINATION /usr/share/icons/hicolor/scalable/apps
+        RENAME QtScrcpy.svg)
 endif()
 
 #

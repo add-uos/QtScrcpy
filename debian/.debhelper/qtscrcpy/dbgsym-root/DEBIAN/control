@@ -1,0 +1,12 @@
+Package: qtscrcpy-dbgsym
+Source: qtscrcpy
+Version: 1.8.1-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: barry-ran <870709864@qq.com>
+Installed-Size: 4405
+Depends: qtscrcpy (= 1.8.1-1)
+Section: debug
+Priority: optional
+Description: debug symbols for qtscrcpy
+Build-Ids: 6a98b67869a54aca907a0bdbab3427e4d969e2e1

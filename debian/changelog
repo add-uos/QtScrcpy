@@ -1,0 +1,6 @@
+qtscrcpy (1.8.1-1) UNRELEASED; urgency=medium
+
+  * Initial release. 
+  * Pack from 'https://github.com/barry-ran/QtScrcpy.git'
+
+ -- zhanghongyuan <zhanghongyuan@uniontech.com>  Wed, 06 Nov 2024 14:26:00 +0800

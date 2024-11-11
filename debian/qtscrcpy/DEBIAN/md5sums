@@ -1,0 +1,7 @@
+53967c0e701a7dd0602fb4e9c2d56f1a  usr/bin/QtScrcpy
+ccd050976bb8d3f226d51cf83d3fb603  usr/bin/adb
+93478abcd1d68c7b1aa05a23b4eb9b88  usr/bin/scrcpy-server
+9c2164800149019834e20e16dc4c88d2  usr/share/applications/QtScrcpy.desktop
+39c2ccc2b1533ad13d2d1b5ad1284c12  usr/share/doc/qtscrcpy/changelog.Debian.gz
+1dc75a553353f19f3f687e4914002545  usr/share/doc/qtscrcpy/copyright
+0904a9bffa33a03764d3a9467c0b043f  usr/share/icons/hicolor/scalable/apps/QtScrcpy.svg
